@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+
+.container {
+  width: 100vw; 
+  height: 56.25vw;
+  max-height: 100vh;
+  max-width: 177.78vh;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  cursor: pointer;
+  overflow: hidden;
+  display: none;
+}
+
+svg.ready {
+  display: block;
+}
