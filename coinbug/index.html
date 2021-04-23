@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>코인충</title>
+	<style type="text/css">
+		body {
+		  font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto,
+		    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+		  line-height: 1.2;
+		  background-image: url("https://assets.codepen.io/2729/buttons-meme.png");
+		  background-repeat: no-repeat;
+		  background-position: center top;
+		  background-size: 100% auto;
+		  margin: 0 0 80vw 0;
+		  padding: 0;
+		}
+
+		p, span {
+		  position: absolute;
+		  top: auto;
+		  overflow: hidden;
+		  clip: rect(1px 1px 1px 1px); /* IE 6/7 */
+		  clip: rect(1px, 1px, 1px, 1px);
+		  width: 1px;
+		  height: 1px;
+		  white-space: nowrap;
+		}
+
+		ol {
+		  box-sizing: border-box;
+		/*  Change this if you need smaller or lager text  */
+		  font-size: 6vw;
+		  margin: 3vw 3vw 0 3vw;
+		  padding: 34vw 0;
+		  list-style-type: none;
+		  position: relative;
+		  width: 92vw;
+		  perspective: 100vw;
+		/*   outline: 1px dotted #0f0; */
+		}
+
+		li {
+		  list-style-type: none;
+		  position: absolute;
+		  transform-origin: top left;
+		  font-weight: bold;
+		  transform: rotateY(30deg) rotateX(18deg) rotateZ(-17deg);
+		  text-align: center;
+		/*   outline: 1px dotted #f00; */
+		}
+
+		li:first-child {
+		  top: 16vw;
+		  left: 6vw;
+		  width: 32vw;
+		}
+
+		li:last-child {
+		  top: 10vw;
+		  left: 41vw;
+		  width: 29vw;
+		  font-size: 90%;
+		  transform: rotateY(31deg) rotateX(22deg) rotateZ(-17deg);
+		}
+	</style>
+</head>
+<body>	
+	<p>
+	  둘중하나 고르시오
+	</p>
+	<ol>
+	  <li><span>Left button,</span> x125 매수<span>.</span></li>
+	  <li><span>Right button,</span> x125 매도<span>.</span></li>
+	</ol>
+	<p>
+	  패닉
+	</p>
+</body>
+</html>
