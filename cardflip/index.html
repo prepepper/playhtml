@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>카드 넘기기</title>
+	<link rel="stylesheet" type="text/css" href="cardflip.css">
+</head>
+<body>
+	<input class="n1 nav first" name="nav" type="radio"  />
+	<input class="n2 nav" name="nav" type="radio" checked  />
+	<input class="n3 nav" name="nav" type="radio"  />
+	<input class="n4 nav" name="nav" type="radio"  />
+	<input class="n5 nav" name="nav" type="radio"  />
+	<input class="n6 nav" name="nav" type="radio"  />
+	<input class="n7 nav" name="nav" type="radio"  />
+	<input class="n8 nav last" name="nav" type="radio"  />
+
+	<section class="s1">{message-one}</section>
+	<section class="s2">{message-two}</section>
+	<section class="s3">{message-three}</section>
+	<section class="s4">{message-four}</section>
+	<section class="s5">{message-five}</section>
+	<section class="s6">{message-six}</section>
+	<section class="s7">{message-seven}</section>
+	<section class="s8">{message-eight}</section>
+
+	<script type="text/javascript">
+		function checknext() {
+		  if (document.querySelector(".last:checked")) {
+		    document.querySelector(".first").checked = true;
+		  } else {
+		    document.querySelector(".nav:checked").nextElementSibling.checked = true;
+		  }
+		}
+
+		setInterval(function () {
+		  checknext();
+		}, 8000);
+	</script>	
+</body>
+</html>
