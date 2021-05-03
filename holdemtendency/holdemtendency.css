@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+ body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   background-color: #f9bc61;
+   overflow: hidden;
+   font-family: "Roboto";       
+}
+
+h2{
+  top: 0.1rem;
+  text-align: center;
+  position: fixed;      
+}
+ .card {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 20em;
+   width: 15em;
+
+   background: linear-gradient(#f9bc61, #fde8c9);
+   box-shadow: 0px 6px 6px -3px rgba(0, 0, 0, 0.2), 0px 10px 14px 1px rgba(0, 0, 0, 0.14), 0px 4px 18px 3px rgba(0, 0, 0, 0.12);
+   border-radius: 0.6em;
+   overflow: unset;
+}
+
+ .content {
+   display: flex;
+   flex-direction: column;
+   height: 88%;
+   width: 88%;
+   background-color: white;
+   border-radius: 0.6em;
+}
+ .content > .top {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   height: 20%;
+   background-color: white;
+}
+ .content > .top p {
+   font-weight: bold;
+   font-size: 0.9em;
+}
+ .content > .top .color {
+   height: 1.2em;
+   width: 1.2em;
+   margin-left: 0.5em;
+   margin-right: 0.5em;
+   border-radius: 50%;
+   background-color: orange;
+}
+ .content > .middle {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 40%;
+   background: linear-gradient(#f9bc61, #fde8c9 75%);
+   padding-left: 1.2em;
+   padding-right: 1.2em;
+}
+ .content > .middle img {
+   width: 60%;
+}
+ .content > .middle div > p:first-child {
+   margin-bottom: 0.4em;
+   font-size: 0.8em;
+}
+ .content > .middle div > p:last-child {
+   margin: 0;
+   font-weight: bold;
+}
+ .content > .bottom {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 40%;
+   padding-left: 30px;
+   padding-right: 30px;
+   font-size:0.8em;
+}
+ .content > .bottom div {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+ .content > .bottom div p:first-child {
+   font-weight: bold;
+}    
+
+
+
+@media screen and (max-width: 992px) { 
+  body {
+     display: inline-block;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     background-color: #f9bc61;
+     overflow: scroll;
+     font-family: "Roboto";       
+     float: left;
+  }
+
+  .start{   
+    height: 5rem;
+  }
+
+  h2{
+    top: -0.7em;
+    left: 22%;
+    text-align: center;
+    position: fixed;   
+    font-size: 3.1em;
+    overflow: auto;
+  }
+  .card {
+     margin-top: 0.3em;
+     margin-left: 1.5em;
+     display: flex;
+     float: left;     
+     justify-content: center;
+     align-items: center;
+     height: 20em;
+     width: 19em;
+     background: linear-gradient(#f9bc61, #fde8c9);
+     box-shadow: 0px 6px 6px -3px rgba(0, 0, 0, 0.2), 0px 10px 14px 1px rgba(0, 0, 0, 0.14), 0px 4px 18px 3px rgba(0, 0, 0, 0.12);
+     border-radius: 0.6em;     
+  }
+  
+   .content {
+     display: block;
+     flex-direction: column;
+     height: 100%;
+     width: 100%;
+     background-color: white
+     border-radius: 0.6em;
+  }
+   .content > .top {
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+     height: 20%;
+     background-color: orange;
+  }
+   .content > .top p {
+     font-weight: bold;
+     font-size: 0.9em;
+  }
+   .content > .top .color {
+     height: 1.2em;
+     width: 1.2em;
+     margin-left: 0.5em;
+     margin-right: 0.5em;
+     border-radius: 50%;
+     background-color: white;
+  }
+
+}
