@@ -58,13 +58,14 @@ h2{
    display: flex;
    justify-content: space-between;
    align-items: center;
-   height: 40%;
+   height: 45%;
    background: linear-gradient(#f9bc61, #fde8c9 75%);
    padding-left: 1.2em;
    padding-right: 1.2em;
 }
  .content > .middle img {
    width: 60%;
+   height: 100%;
 }
  .content > .middle div > p:first-child {
    margin-bottom: 0.4em;
@@ -120,13 +121,13 @@ h2{
   }
   .card {
      margin-top: 0.3em;
-     margin-left: 1.5em;
+     margin-left: 0.5em;
      display: flex;
      float: left;     
      justify-content: center;
      align-items: center;
-     height: 20em;
-     width: 19em;
+     height: 29em;
+     width: 21em;
      background: linear-gradient(#f9bc61, #fde8c9);
      box-shadow: 0px 6px 6px -3px rgba(0, 0, 0, 0.2), 0px 10px 14px 1px rgba(0, 0, 0, 0.14), 0px 4px 18px 3px rgba(0, 0, 0, 0.12);
      border-radius: 0.6em;     
