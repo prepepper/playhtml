@@ -14,6 +14,15 @@ h2{
   text-align: center;
   position: fixed;      
 }
+
+  .mainImg {
+    width: 20em;
+    height: 13em;
+    position: fixed;
+    margin-top: -26em;
+    margin-left: 35%;
+  }
+
  .card {
    display: flex;
    justify-content: center;
@@ -107,10 +116,6 @@ h2{
      float: left;
   }
 
-  .start{   
-    height: 5rem;
-  }
-
   h2{
     top: -0.7em;
     left: 22%;
@@ -119,6 +124,17 @@ h2{
     font-size: 3.1em;
     overflow: auto;
   }
+
+  .mainImg {
+    width: 20em;
+    height: 13em;
+    position: relative;
+    margin-top: 5em;
+    margin-left: 1em;
+  }
+  .start{   
+    height: 5rem;
+  }
   .card {
      margin-top: 0.3em;
      margin-left: 0.5em;
@@ -126,7 +142,7 @@ h2{
      float: left;     
      justify-content: center;
      align-items: center;
-     height: 29em;
+     height: 28em;
      width: 21em;
      background: linear-gradient(#f9bc61, #fde8c9);
      box-shadow: 0px 6px 6px -3px rgba(0, 0, 0, 0.2), 0px 10px 14px 1px rgba(0, 0, 0, 0.14), 0px 4px 18px 3px rgba(0, 0, 0, 0.12);
